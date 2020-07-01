@@ -17,7 +17,7 @@ abstract class BaseLifeCycleActivity<B : ViewDataBinding, T : ViewModel> : BaseA
 
     abstract val viewModel: T
 
-    private lateinit var viewDataBinding: B
+    lateinit var viewDataBinding: B
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
