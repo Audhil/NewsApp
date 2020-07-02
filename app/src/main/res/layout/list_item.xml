@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="article"
+            type="com.example.newsapp.data.model.Article" />
+
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/item_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardUseCompatPadding="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:animateLayoutChanges="true">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/news_img"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:contentDescription="@string/img"
+                android:scaleType="center"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/news_title_txt"
+                app:newsImg="@{article.urlToImage}"
+                tools:src="@drawable/ic_launcher_background" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/news_title_txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="@{article.title}"
+                android:textSize="@dimen/toolbar_txt_16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/news_img"
+                app:layout_constraintTop_toTopOf="@+id/news_img"
+                tools:text="lasndfasfmsa,.vmas,vas.mnvmndfsdm,sdag" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/news_desc_txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@{article.description}"
+                android:textSize="@dimen/toolbar_txt_14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/news_title_txt"
+                app:layout_constraintTop_toBottomOf="@+id/news_title_txt"
+                tools:text="lasndfasfmsa,.vmas,vas.mnvmndfsdm,sdag" />
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/news_author_txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@{article.author}"
+                android:textSize="@dimen/toolbar_txt_12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/news_desc_txt"
+                app:layout_constraintTop_toBottomOf="@+id/news_desc_txt"
+                tools:text="lasndfasfmsa,.vmas,vas.mnvmndfsdm,sdagaab" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</layout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="app_bar_height">56dp</dimen>
+
+    <!--    text sizes-->
+    <dimen name="toolbar_txt_22sp">22sp</dimen>
+    <dimen name="toolbar_txt_18sp">18sp</dimen>
+    <dimen name="toolbar_txt_16sp">16sp</dimen>
+    <dimen name="toolbar_txt_14sp">14sp</dimen>
+    <dimen name="toolbar_txt_12sp">12sp</dimen>
+
+</resources>
