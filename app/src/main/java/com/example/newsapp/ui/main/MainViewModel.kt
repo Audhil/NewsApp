@@ -1,5 +1,6 @@
 package com.example.newsapp.ui.main
 
+import androidx.databinding.ObservableField
 import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.LiveData
 import com.example.newsapp.data.model.Article
@@ -11,6 +12,8 @@ class MainViewModel
 constructor(
     private val mainRepo: MainRepo
 ) : BaseViewModel() {
+
+    val pageLoadingProgress = ObservableField(true)
 
     val errorLiveData: ErrorLiveData = mainRepo.errorLiveData
 

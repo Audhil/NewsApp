@@ -64,6 +64,7 @@ class MainActivity : BaseLifeCycleActivity<ActivityMainBinding, MainViewModel>()
     private fun setUpDataObserver() =
         viewModel.articlesListLiveData.observe(this, Observer {
             it?.let {
+                viewModel.pageLoadingProgress.set(false)
                 viewDataBinding.repoSwipeRefreshLayout.isRefreshing = false
                 feedListAdapter.addItems(it)
             }
