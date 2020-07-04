@@ -28,7 +28,7 @@ class MainActivity : BaseLifeCycleActivity<ActivityMainBinding, MainViewModel>()
                 NetworkError.UNKNOWN,
                 NetworkError.SOCKET_TIMEOUT -> {
                     viewDataBinding.retryBtn.visibility = View.VISIBLE
-                    getString(R.string.something_went_wrong).showToast()
+//                    getString(R.string.something_went_wrong).showToast()
                 }
 
                 else ->

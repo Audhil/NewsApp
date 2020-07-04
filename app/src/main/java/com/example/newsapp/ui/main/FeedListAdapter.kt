@@ -8,7 +8,7 @@ import com.example.newsapp.data.model.Article
 import com.example.newsapp.databinding.ListItemBinding
 import com.example.newsapp.util.BiCallBack
 
-class FeedListAdapter :
+open class FeedListAdapter :
     RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
     private val articleList by lazy {

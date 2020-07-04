@@ -1,0 +1,266 @@
+{
+  "status" : "ok",
+  "articles" : [
+    {
+      "source" : {
+        "id" : null,
+        "name" : "Livemint"
+      },
+      "author" : "Reuters",
+      "urlToImage" : "https:\/\/images.livemint.com\/img\/2020\/07\/04\/600x338\/waluj_1593179627471_1593179634558_1593874620980.jpeg",
+      "content" : "NEW DELHI\/MUMBAI: Workers at Bajaj Auto, India's biggest exporter of motorbikes, are demanding the temporary closure of one of its plants after 250 employees there tested positive for coronavirus, it… [+2862 chars]",
+      "title" : "Bajaj Auto unions demand halt of Waluj unit after 250 workers catch Covid-19 - Livemint",
+      "publishedAt" : "2020-07-04T15:09:57Z",
+      "description" : "The company said on June 26 that 140 of the roughly 8,000 staff at the factory had caught the virus and two had died.It said in a letter to employees this week that those who do not show up for work will not be paid",
+      "url" : "https:\/\/www.livemint.com\/companies\/news\/bajaj-auto-unions-demand-factory-halt-after-250-workers-test-positive-for-coronavirus-11593874043897.html"
+    },
+    {
+      "source" : {
+        "id" : null,
+        "name" : "The Indian Express"
+      },
+      "author" : "PTI",
+      "urlToImage" : "https:\/\/images.indianexpress.com\/2020\/06\/blood.jpg?w=759",
+      "content" : "By: PTI | New York | \r\nUpdated: July 4, 2020 8:21:33 pm\r\nIt can allow clinicians and scientists to carry out a quick and cheap diagnostic technique called the LAMP assay to detect the presence of the… [+4561 chars]",
+      "title" : "Indian-led team develops cheap, electricity free centrifuge for COVID-19 testing - The Indian Express",
+      "publishedAt" : "2020-07-04T14:54:45Z",
+      "description" : "According to the scientists, the 'Handyfuge' device spins sample-containing tubes at very high speeds, enough to separate the virus genome from patient saliva samples, without needing electricity.",
+      "url" : "https:\/\/indianexpress.com\/article\/world\/indian-led-team-develops-cheap-electricity-free-centrifuge-covid-19-testing-6490127\/"
+    },
+    {
+      "source" : {
+        "id" : null,
+        "name" : "Livemint"
+      },
+      "author" : "Salman SH",
+      "urlToImage" : "https:\/\/images.livemint.com\/img\/2020\/07\/04\/600x338\/2019-10-15T113948Z_1_LYNXMPEF9E0YK_RTROPTP_3_GOLDMAN-SACHS-AUSTRALIA_1575717857337_1593873008948.JPG",
+      "content" : "Two early angel investors in online beauty and makeup products retailer Purplle have secured a 40X return on their angel investment over a nine-year period, after both investors offloaded their share… [+2820 chars]",
+      "title" : "Goldman Sachs buys out Purplle’s angel investor shares at 40X premium - Livemint",
+      "publishedAt" : "2020-07-04T14:37:40Z",
+      "description" : "Angel investors Abhinav Sinha and Anirudha Gopalakrishnan who are former Fidelity Investments executives invested  ₹25 lakhs and  ₹20 lakhs respectively when Purplle was launched in December 2011",
+      "url" : "https:\/\/www.livemint.com\/companies\/news\/goldman-sachs-buys-out-purplle-s-angel-investor-shares-at-40x-premium-11593872585305.html"
+    },
+    {
+      "source" : {
+        "id" : null,
+        "name" : "Carwale.com"
+      },
+      "author" : "Nikhil Puthran",
+      "urlToImage" : "https:\/\/imgd.aeplcdn.com\/642x336\/n\/cw\/ec\/48592\/hyundai-creta-front-view0.jpeg?art=1&q=85",
+      "content" : "- Hyundai sold 7,202 units of the Creta in June \r\n- Kia sold 7,114 units of the Seltos in June \r\n- Competition likely to intensify in the months to come \r\nBack in May, car manufacturers gradually res… [+1681 chars]",
+      "title" : "Hyundai Creta retains the bestselling SUV title in June; outsells Kia Seltos - CarWale",
+      "publishedAt" : "2020-07-04T13:46:25Z",
+      "description" : "Hyundai sold 7,202 units of Creta in June",
+      "url" : "https:\/\/www.carwale.com\/news\/hyundai-creta-retains-the-bestselling-suv-title-in-june-outsells-kia-seltos\/"
+    },
+    {
+      "source" : {
+        "id" : "the-times-of-india",
+        "name" : "The Times of India"
+      },
+      "author" : "TIMESOFINDIA.COM",
+      "urlToImage" : "https:\/\/static.toiimg.com\/thumb\/msid-76784089,width-1070,height-580,imgsize-1543455,resizemode-75,overlay-toi_sw,pt-32,y_pad-40\/photo.jpg",
+      "content" : "12:432020 Honda City review",
+      "title" : "Honda to launch 5th generation City on July 15 - Times of India",
+      "publishedAt" : "2020-07-04T13:19:27Z",
+      "description" : "Cars News: NEW DELHI: The fifth generation Honda City is all set to drive into the market on July 15, the automaker announced on Saturday.",
+      "url" : "https:\/\/timesofindia.indiatimes.com\/auto\/cars\/honda-to-launch-5th-generation-city-on-july-15\/articleshow\/76784048.cms"
+    },
+    {
+      "source" : {
+        "id" : null,
+        "name" : "Deccan Herald"
+      },
+      "author" : "Bloomberg",
+      "urlToImage" : "https:\/\/www.deccanherald.com\/sites\/dh\/files\/articleimages\/2020\/07\/04\/ux9lf1kv_400x400%20%285%29-1593869783.jpg",
+      "content" : "By Saritha RaiIndias latest e-commerce policy draft includes steps that could help local startups and impose government oversight on how companies handle data.\r\nThe government has been working on the… [+2830 chars]",
+      "title" : "Amazon, Google face tough rules in India’s e-commerce draft - Deccan Herald",
+      "publishedAt" : "2020-07-04T13:01:38Z",
+      "description" : "India’s latest e-commerce policy draft includes steps that could help local startups and impose government oversight on how companies handle data.",
+      "url" : "https:\/\/www.deccanherald.com\/business\/amazon-google-face-tough-rules-in-india-s-e-commerce-draft-857039.html"
+    },
+    {
+      "source" : {
+        "id" : null,
+        "name" : "Team-BHP"
+      },
+      "author" : "Tushar Kelshikar",
+      "urlToImage" : "https:\/\/www.team-bhp.com\/sites\/default\/files\/styles\/large\/public\/2021-skoda-octavia-rs.jpg",
+      "content" : "The fourth generation Octavia was unveiled in Europe last year. Now, the carmaker has revealed the sportier Octavia RS based on the 4th-gen car.\r\nJust like the Octavia RS 245 that is currently on sal… [+1012 chars]",
+      "title" : "Next-gen Skoda Octavia RS unveiled - Team-BHP",
+      "publishedAt" : "2020-07-04T12:46:24Z",
+      "description" : "The fourth generation Octavia was unveiled in Europe last year. Now, the carmaker has revealed the sportier Octavia RS based on the 4th-gen car. Just like the Octavia RS 245 that is currently on sale in India, the new model also features a sporty exterior wit…",
+      "url" : "https:\/\/www.team-bhp.com\/news\/next-gen-skoda-octavia-rs-unveiled"
+    },
+    {
+      "source" : {
+        "id" : "the-times-of-india",
+        "name" : "The Times of India"
+      },
+      "author" : "ETMarkets.com",
+      "urlToImage" : "https:\/\/img.etimg.com\/thumb\/msid-76786054,width-1070,height-580,imgsize-279124,overlay-etmarkets\/photo.jpg",
+      "content" : "Mumbai: Top private lender HDFC Bank on Saturday said its advances grew 21 per cent at the end of June, from a year ago, while deposits rose 25 per cent.\r\nIn an exchange filing, the private sector le… [+850 chars]",
+      "title" : "HDFC Bank's deposits rise 25% to Rs 11,89,500 crore from a year ago - Economic Times",
+      "publishedAt" : "2020-07-04T11:48:36Z",
+      "description" : "Its deposits aggregated to around Rs 11,89,500 crore as of June 30.",
+      "url" : "https:\/\/economictimes.indiatimes.com\/markets\/stocks\/news\/hdfc-banks-deposits-rise-25-rs-1189500-crore-from-a-year-ago\/articleshow\/76786053.cms"
+    },
+    {
+      "source" : {
+        "id" : "the-times-of-india",
+        "name" : "The Times of India"
+      },
+      "author" : "Nandini Sen Gupta",
+      "urlToImage" : "https:\/\/static.toiimg.com\/thumb\/msid-76781415,width-1070,height-580,imgsize-457557,resizemode-75,overlay-toi_sw,pt-32,y_pad-40\/photo.jpg",
+      "content" : null,
+      "title" : "Demand for small cars up, diesel loses out - Times of India",
+      "publishedAt" : "2020-07-04T11:31:24Z",
+      "description" : "News News: CHENNAI: Motown is going back to basics.",
+      "url" : "https:\/\/timesofindia.indiatimes.com\/auto\/news\/demand-for-small-cars-up-diesel-loses-out\/articleshow\/76777101.cms"
+    },
+    {
+      "source" : {
+        "id" : null,
+        "name" : "Motor1 "
+      },
+      "author" : "Jacob Oliva",
+      "urlToImage" : "https:\/\/cdn.motor1.com\/images\/mgl\/x10V2\/s1\/2020-hyundai-venue-sel.jpg",
+      "content" : "Back in April, a report came out stating that only 41 new car models in the United States are offered with a manual transmission. That's out of 327 in total, which translates to only 12.5 percent of … [+1579 chars]",
+      "title" : "Hyundai Venue To Get Manual Gearbox Without Clutch Pedal In India - Motor1 ",
+      "publishedAt" : "2020-07-04T11:22:01Z",
+      "description" : "It's different from the dreaded automated manual transmissions, though.",
+      "url" : "https:\/\/www.motor1.com\/news\/432275\/hyundai-venue-clutchless-manual-gearbox\/"
+    },
+    {
+      "source" : {
+        "id" : null,
+        "name" : "Livemint"
+      },
+      "author" : "Gireesh Chandra Prasad",
+      "urlToImage" : "https:\/\/images.livemint.com\/img\/2020\/07\/04\/600x338\/incometax-kZBI--621x414@LiveMint_1593858371041.JPG",
+      "content" : "NEW DELHI: The income tax department has notified rules for levying 2% tax on non-resident e-commerce players which kicked in from April. Payment for the first installment is due on July 7.Last minut… [+1790 chars]",
+      "title" : "Govt notifies tax rules for non-resident e-commerce players - Livemint",
+      "publishedAt" : "2020-07-04T10:50:12Z",
+      "description" : "India is going ahead with the new digital economy tax despite calls from global bodies to delay its implementation.Payment of the first tax installment is due on July 7",
+      "url" : "https:\/\/www.livemint.com\/industry\/infotech\/govt-notifies-tax-rules-for-non-resident-e-commerce-players-11593856907811.html"
+    },
+    {
+      "source" : {
+        "id" : null,
+        "name" : "The Indian Express"
+      },
+      "author" : "IE Online",
+      "urlToImage" : "https:\/\/images.indianexpress.com\/2020\/07\/vietnam-hotel-759.jpg?w=759",
+      "content" : null,
+      "title" : "Vietnam inaugurates gold-plated hotel after coronavirus lockdown; see pics - The Indian Express",
+      "publishedAt" : "2020-07-04T10:45:16Z",
+      "description" : "Updated : July 4, 2020 3:47:37 pm1 \/ 7 Vietnam has opened what is being deemed the world's first gold-plated hotel, in the hope to welcome tourists as the country opens after three months of coronavirus-led lockdown. (Source: REUTERS\/Kham)2 \/ 7 At Dolce Hanoi…",
+      "url" : "https:\/\/indianexpress.com\/photos\/lifestyle-gallery\/vietnam-inaugurates-gold-plated-hotel-after-coronavirus-lockdown-see-pics-6489975\/"
+    },
+    {
+      "source" : {
+        "id" : null,
+        "name" : "Goodreturns.in"
+      },
+      "author" : "Sunil Fernandes",
+      "urlToImage" : "https:\/\/www.goodreturns.in\/img\/2019\/08\/gold-1565419690.jpg",
+      "content" : "It's important to remember that gold prices gain, when there is chaos or bad news around the world. As Covid-19 created demand destruction for goods and services and subsequently economic distress, g… [+2521 chars]",
+      "title" : "Should You Invest In Gold At Rs 47,500 Per 10 Grams? - Goodreturns",
+      "publishedAt" : "2020-07-04T10:45:11Z",
+      "description" : "Gold has had a remarkable run since the start of the year. 22 karat gold rate in India at the local jeweller shop, which was around Rs 38,200 has now galloped to Rs 46,500, while 24 karats gold rates, which were placed at Rs 39,300 at the start of the year ha…",
+      "url" : "https:\/\/www.goodreturns.in\/personal-finance\/investment\/should-you-invest-in-gold-at-rs-47-500-per-10-grams-1162124.html"
+    },
+    {
+      "source" : {
+        "id" : null,
+        "name" : "ScienceAlert"
+      },
+      "author" : "Peter Dockrill",
+      "urlToImage" : "https:\/\/www.sciencealert.com\/images\/2019-12\/processed\/012-quadratic-equations_1024.jpg",
+      "content" : "If you studied algebra in high school (or you're learning it right now), there's a good chance you're familiar with the quadratic formula. If not, it's possible you repressed it.\r\nBy this point, bill… [+4698 chars]",
+      "title" : "Math Genius Has Come Up With a Wildly Simple New Way to Solve Quadratic Equations - ScienceAlert",
+      "publishedAt" : "2020-07-04T10:14:48Z",
+      "description" : "If you studied algebra in high school (or you're learning it right now), there's a good chance you're familiar with the quadratic formula. If not, it's possible you repressed it.",
+      "url" : "https:\/\/www.sciencealert.com\/math-genius-has-come-up-with-a-wildly-simple-new-way-to-solve-quadratic-equations"
+    },
+    {
+      "source" : {
+        "id" : null,
+        "name" : "Hindustan Times"
+      },
+      "author" : "Associated Press | Posted by Arpan Rai",
+      "urlToImage" : "https:\/\/www.hindustantimes.com\/rf\/image_size_960x540\/HT\/p2\/2020\/07\/04\/Pictures\/boost-recovery-pins-hopes-on-super-saturday_b20eec58-bddc-11ea-9fb0-50c382f93f50.jpg",
+      "content" : "England is embarking on Saturday on perhaps its biggest lockdown easing yet as pubs and restaurants have the right to reopen for the first time in more than three months.\r\nIn addition to the reopenin… [+1232 chars]",
+      "title" : "Pubs and restaurants reopen in England as lockdown eased - Hindustan Times",
+      "publishedAt" : "2020-07-04T10:01:14Z",
+      "description" : "In addition to the reopening of much of the hospitality sector, couples can tie the knot once again, people can go and see a movie at their local cinema and many of those who have had enough of their lockdown hair can finally get a trim.",
+      "url" : "https:\/\/www.hindustantimes.com\/world-news\/pubs-and-restaurants-reopen-in-england-as-lockdown-eased\/story-8M5fswSYLuvZhweufwdKjM.html"
+    },
+    {
+      "source" : {
+        "id" : "the-times-of-india",
+        "name" : "The Times of India"
+      },
+      "author" : "Milan Vaishnav CMT MSTA",
+      "urlToImage" : "https:\/\/img.etimg.com\/thumb\/msid-76784052,width-1070,height-580,imgsize-71505,overlay-etmarkets\/photo.jpg",
+      "content" : "Nifty continued to surge for the third week in a row as it extended the gains. In our previous weekly note, we had mentioned the possibilities of a mild extension of the up-move. During the week gone… [+4313 chars]",
+      "title" : "Dalal Street week ahead: Nifty momentum weakening; don’t chase this market blindly - Economic Times",
+      "publishedAt" : "2020-07-04T09:59:00Z",
+      "description" : "Pattern analysis showed Nifty has managed to move past the 200-DMA.",
+      "url" : "https:\/\/economictimes.indiatimes.com\/markets\/stocks\/news\/dalal-street-week-ahead-nifty-momentum-weakening-dont-chase-this-market-blindly\/articleshow\/76784047.cms"
+    },
+    {
+      "source" : {
+        "id" : "google-news",
+        "name" : "Google News"
+      },
+      "author" : null,
+      "urlToImage" : null,
+      "content" : null,
+      "title" : "Agra Metro, Kanpur Metro trains in 65 weeks! Bombardier bags contract for 201 coaches; details - The Financial Express",
+      "publishedAt" : "2020-07-04T09:11:58Z",
+      "description" : null,
+      "url" : "https:\/\/news.google.com\/__i\/rss\/rd\/articles\/CBMilAFodHRwczovL3d3dy5maW5hbmNpYWxleHByZXNzLmNvbS9pbmZyYXN0cnVjdHVyZS9hZ3JhLW1ldHJvLWthbnB1ci1tZXRyby10cmFpbnMtaW4tNjUtd2Vla3MtYm9tYmFyZGllci1iYWdzLWNvbnRyYWN0LWZvci0yMDEtY29hY2hlcy1kZXRhaWxzLzIwMTMyMDYv0gGZAWh0dHBzOi8vd3d3LmZpbmFuY2lhbGV4cHJlc3MuY29tL2luZnJhc3RydWN0dXJlL2FncmEtbWV0cm8ta2FucHVyLW1ldHJvLXRyYWlucy1pbi02NS13ZWVrcy1ib21iYXJkaWVyLWJhZ3MtY29udHJhY3QtZm9yLTIwMS1jb2FjaGVzLWRldGFpbHMvMjAxMzIwNi9saXRlLw?oc=5"
+    },
+    {
+      "source" : {
+        "id" : null,
+        "name" : "Moneycontrol"
+      },
+      "author" : null,
+      "urlToImage" : "https:\/\/images.moneycontrol.com\/static-mcnews\/2019\/04\/bank-banks-banking-finance-money-debt-money-1-770x433.jpg",
+      "content" : "Your salary, investments and loan EMIs, are all managed from the savings accounts you maintain with banks. Money lying in our savings bank accounts fetches a nominal rate of interest. Large banks, bo… [+549 chars]",
+      "title" : "10 banks which pay high interest rates on savings accounts - Moneycontrol.com",
+      "publishedAt" : "2020-07-04T08:57:00Z",
+      "description" : "Large banks, both government-owned and from the private sector, give far lower interest rates to depositors. But some banks, especially smaller or newer ones, pay a higher interest rate on your balances in order to attract new business into banks.",
+      "url" : "https:\/\/www.moneycontrol.com\/news\/photos\/business\/personal-finance\/in-pics-10-banks-which-pay-the-most-on-savings-accounts-5506691.html"
+    },
+    {
+      "source" : {
+        "id" : "google-news",
+        "name" : "Google News"
+      },
+      "author" : null,
+      "urlToImage" : null,
+      "content" : null,
+      "title" : "Marico’s Saffola, Parachute beat lockdown blues; FMCG firm remains optimistic of revival despite volatility - The Financial Express",
+      "publishedAt" : "2020-07-04T08:27:12Z",
+      "description" : null,
+      "url" : "https:\/\/news.google.com\/__i\/rss\/rd\/articles\/CBMimwFodHRwczovL3d3dy5maW5hbmNpYWxleHByZXNzLmNvbS9pbmR1c3RyeS9tYXJpY29zLXNhZmZvbGEtcGFyYWNodXRlLWJlYXQtbG9ja2Rvd24tYmx1ZXMtZm1jZy1maXJtLXJlbWFpbnMtb3B0aW1pc3RpYy1vZi1yZXZpdmFsLWRlc3BpdGUtdm9sYXRpbGl0eS8yMDEzMTQ3L9IBoAFodHRwczovL3d3dy5maW5hbmNpYWxleHByZXNzLmNvbS9pbmR1c3RyeS9tYXJpY29zLXNhZmZvbGEtcGFyYWNodXRlLWJlYXQtbG9ja2Rvd24tYmx1ZXMtZm1jZy1maXJtLXJlbWFpbnMtb3B0aW1pc3RpYy1vZi1yZXZpdmFsLWRlc3BpdGUtdm9sYXRpbGl0eS8yMDEzMTQ3L2xpdGUv?oc=5"
+    },
+    {
+      "source" : {
+        "id" : null,
+        "name" : "Moneycontrol"
+      },
+      "author" : null,
+      "urlToImage" : "https:\/\/images.moneycontrol.com\/static-mcnews\/2019\/02\/Sensex_nifty_BSE_NSE_traders_NSE-770x433.jpg",
+      "content" : "Equity markets ended the week with strong gains on the back of better than expected economic data globally and reports of a potential COVID-19 vaccine.\r\nThe Nifty50 recorded its third consecutive wee… [+6593 chars]",
+      "title" : "Sensex, Nifty jump 2% on weekly basis; will the trend continue? Here's what experts say - Moneycontrol.com",
+      "publishedAt" : "2020-07-04T08:10:00Z",
+      "description" : "The Nifty50 recorded its third consecutive week of gains. The index closed with gains of 2.1 percent while the S&P BSE Sensex rose 2.4 percent for the week ended July 3.",
+      "url" : "https:\/\/www.moneycontrol.com\/news\/business\/markets\/sensex-nifty-jump-2-on-weekly-basis-will-the-trend-continue-heres-what-experts-say-5507121.html"
+    }
+  ],
+  "totalResults" : 70
+}

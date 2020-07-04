@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><!--<network-security-config>-->
+<!--    &lt;!&ndash;Set application-wide security config using base-config tag.&ndash;&gt;-->
+<!--    <base-config cleartextTrafficPermitted="false">-->
+<!--        <trust-anchors>-->
+<!--            <certificates src="system" />-->
+<!--        </trust-anchors>-->
+<!--    </base-config>-->
+<!--</network-security-config>-->
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">localhost/127.0.0.1:8080</domain>
+    </domain-config>
+</network-security-config>
