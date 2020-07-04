@@ -7,15 +7,14 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.components.ApplicationComponent
-import okhttp3.Cache
-import okhttp3.Interceptor
-import okhttp3.OkHttpClient
-import okhttp3.Response
+import okhttp3.*
 import okhttp3.logging.HttpLoggingInterceptor
+import okio.IOException
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.moshi.MoshiConverterFactory
 import java.util.concurrent.TimeUnit
+
 
 @Module
 @InstallIn(ApplicationComponent::class)
@@ -30,21 +29,38 @@ class APIModule {
     private val okHttpClient: OkHttpClient by lazy {
         OkHttpClient.Builder()
             .cache(cache)
-            .addInterceptor(object : Interceptor {
-
+            .addNetworkInterceptor(object : Interceptor {
+                @Throws(IOException::class)
                 override fun intercept(chain: Interceptor.Chain): Response {
-                    var request = chain.request()
-                    if (!NewsApplication.INSTANCE.isNetworkConnected()) {
-                        showVLog { "DATA FROM CACHE" }
-                        val maxStale = 2 * 60 * 60 //  2 hrs in sec
-                        request = request
-                            .newBuilder()
-                            .header("Cache-Control", "public, only-if-cached, max-stale=$maxStale")
+                    val originalResponse: Response = chain.proceed(chain.request())
+                    val cacheControl = originalResponse.header("Cache-Control")
+                    return if (cacheControl == null ||
+                        cacheControl.contains("no-store") ||
+                        cacheControl.contains("no-cache") ||
+                        cacheControl.contains("must-revalidate") ||
+                        cacheControl.contains("max-age=0")
+                    )
+                        originalResponse.newBuilder()
+                            .removeHeader("Pragma")
+                            .header("Cache-Control", "public, max-age=" + 5000)
                             .build()
-                    }
+                    else
+                        originalResponse
+                }
+            })
+            .addInterceptor(object : Interceptor {
+                @Throws(IOException::class)
+                override fun intercept(chain: Interceptor.Chain): Response {
+                    var request: Request = chain.request()
+                    if (!NewsApplication.INSTANCE.isNetworkConnected())
+                        request = request.newBuilder()
+                            .removeHeader("Pragma")
+                            .header("Cache-Control", "public, only-if-cached")
+                            .build()
                     return chain.proceed(request)
                 }
             })
+
             .addInterceptor(logInterceptor.apply {
                 level = if (NLog.DEBUG_BOOL)
                     HttpLoggingInterceptor.Level.BODY

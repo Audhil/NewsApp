@@ -6,16 +6,16 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.example.newsapp.data.model.Article
 import com.example.newsapp.databinding.ListItemBinding
-import com.example.newsapp.util.CallBack
+import com.example.newsapp.util.BiCallBack
 
 class FeedListAdapter :
     RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
-    private val items by lazy {
+    private val articleList by lazy {
         arrayListOf<Article>()
     }
 
-    var clickListener: CallBack<Int>? = null
+    var clickListener: BiCallBack<Int, Article>? = null
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder =
         RepoViewHolder(
@@ -27,12 +27,12 @@ class FeedListAdapter :
             )
         )
 
-    override fun getItemCount(): Int = items.size
+    override fun getItemCount(): Int = articleList.size
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) =
         when (holder) {
             is RepoViewHolder ->
-                holder.bindTo(position, items[position], clickListener)
+                holder.bindTo(position, articleList[position], clickListener)
 
             else ->
                 Unit
@@ -42,17 +42,17 @@ class FeedListAdapter :
         val diffResult = DiffUtil.calculateDiff(object : DiffUtil.Callback() {
 
             override fun areItemsTheSame(oldItemPosition: Int, newItemPosition: Int): Boolean =
-                items[oldItemPosition].publishedAt == newItems[newItemPosition].publishedAt
+                articleList[oldItemPosition].publishedAt == newItems[newItemPosition].publishedAt
 
-            override fun getOldListSize(): Int = items.size
+            override fun getOldListSize(): Int = articleList.size
 
             override fun getNewListSize(): Int = newItems.size
 
             override fun areContentsTheSame(oldItemPosition: Int, newItemPosition: Int): Boolean =
-                items[oldItemPosition] == newItems[newItemPosition]
+                articleList[oldItemPosition] == newItems[newItemPosition]
 
         })
-        items.run {
+        articleList.run {
             clear()
             addAll(newItems)
         }
@@ -66,12 +66,12 @@ class FeedListAdapter :
         fun bindTo(
             position: Int,
             articlee: Article,
-            clickListener: CallBack<Int>?
+            clickListener: BiCallBack<Int, Article>?
         ) {
             binding.run {
                 article = articlee
                 itemCardView.setOnClickListener {
-                    clickListener?.invoke(position)
+                    clickListener?.invoke(position, articlee)
                 }
                 executePendingBindings()
             }

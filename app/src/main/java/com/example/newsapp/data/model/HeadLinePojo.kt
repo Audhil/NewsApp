@@ -1,8 +1,11 @@
 package com.example.newsapp.data.model
 
+import android.os.Parcelable
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
+import kotlinx.android.parcel.Parcelize
 
+@Parcelize
 @JsonClass(generateAdapter = true)
 data class HeadLinePojo(
     @field:Json(name = "status")
@@ -11,12 +14,13 @@ data class HeadLinePojo(
     val totalResults: Long? = null,
     @field:Json(name = "articles")
     val articles: List<Article>? = null
-) {
+) : Parcelable {
     override fun toString(): String {
         return "HeadLinePojo(status=$status, totalResults=$totalResults, articles=$articles)"
     }
 }
 
+@Parcelize
 @JsonClass(generateAdapter = true)
 data class Article(
     @field:Json(name = "author")
@@ -33,7 +37,7 @@ data class Article(
     var publishedAt: String? = null,
     @field:Json(name = "content")
     var content: String? = null
-) {
+) : Parcelable {
     override fun toString(): String {
         return "Article(author=$author, title=$title, description=$description, url=$url, urlToImage=$urlToImage, publishedAt=$publishedAt, content=$content)"
     }

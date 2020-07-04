@@ -24,19 +24,17 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
+            android:layout_margin="10dp"
             android:animateLayoutChanges="true">
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/news_img"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:contentDescription="@string/img"
-                android:scaleType="center"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/news_title_txt"
-                app:newsImg="@{article.urlToImage}"
-                tools:src="@drawable/ic_launcher_background" />
+                app:layout_constraintTop_toTopOf="parent"
+                app:newsImg="@{article.urlToImage}" />
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/news_title_txt"
@@ -44,12 +42,13 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
                 android:text="@{article.title}"
                 android:textSize="@dimen/toolbar_txt_16sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/news_img"
-                app:layout_constraintTop_toTopOf="@+id/news_img"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/news_img"
                 tools:text="lasndfasfmsa,.vmas,vas.mnvmndfsdm,sdag" />
 
             <androidx.appcompat.widget.AppCompatTextView

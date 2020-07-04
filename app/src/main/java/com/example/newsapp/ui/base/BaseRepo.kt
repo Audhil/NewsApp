@@ -7,7 +7,7 @@ import com.example.newsapp.util.showELog
 import com.example.newsapp.util.showVLog
 
 abstract class BaseRepo(
-    private val errorLiveData: ErrorLiveData
+    val errorLiveData: ErrorLiveData
 ) : IRxListeners<Any> {
 
     override fun onSuccess(obj: Any?, tag: String) {

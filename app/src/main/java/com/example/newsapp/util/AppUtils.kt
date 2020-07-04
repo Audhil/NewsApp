@@ -13,3 +13,5 @@ fun loadImage(imageView: ImageView, url: String) =
         .into(imageView)
 
 typealias CallBack<T> = (T) -> Unit
+
+typealias BiCallBack<T, U> = (T, U) -> Unit

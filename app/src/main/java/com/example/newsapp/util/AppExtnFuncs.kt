@@ -3,6 +3,8 @@ package com.example.newsapp.util
 import android.content.Context
 import android.net.ConnectivityManager
 import android.util.Log
+import android.widget.Toast
+import com.example.newsapp.NewsApplication
 
 fun Context?.isNetworkConnected(): Boolean =
     (this?.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager?)?.activeNetworkInfo?.run {
@@ -59,4 +61,21 @@ object NLog {
         if (DEBUG_BOOL)
             Log.w(tag, msg)
     }
+}
+
+private var toast: Toast? = null
+fun Any.showToast(
+    context: Context? = NewsApplication.INSTANCE,
+    duration: Int = Toast.LENGTH_SHORT
+) {
+    toast?.cancel()
+    toast = when (this) {
+        is String ->
+            Toast.makeText(context, this, duration)
+        is Int ->
+            Toast.makeText(context, this, duration)
+        else ->
+            Toast.makeText(context, "Invalid input to Toast! :-(", duration)
+    }
+    toast?.show()
 }

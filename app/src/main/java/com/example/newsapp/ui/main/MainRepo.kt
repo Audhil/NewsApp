@@ -17,7 +17,7 @@ import javax.inject.Inject
 class MainRepo
 @Inject
 constructor(
-    private val errorLiveDataa: ErrorLiveData,
+    errorLiveDataa: ErrorLiveData,
     private val api: API,
     @ApplicationContext private val context: Context
 ) : BaseRepo(errorLiveDataa) {
