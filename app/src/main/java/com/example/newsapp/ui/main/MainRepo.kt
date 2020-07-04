@@ -12,6 +12,7 @@ import com.example.newsapp.util.Constants
 import com.example.newsapp.util.ErrorLiveData
 import dagger.hilt.android.qualifiers.ApplicationContext
 import io.reactivex.disposables.Disposable
+import io.reactivex.schedulers.TestScheduler
 import javax.inject.Inject
 
 class MainRepo
@@ -19,17 +20,18 @@ class MainRepo
 constructor(
     errorLiveDataa: ErrorLiveData,
     private val api: API,
-    @ApplicationContext private val context: Context
+    @ApplicationContext private val context: Context,
+    private val testScheduler: TestScheduler? = null
 ) : BaseRepo(errorLiveDataa) {
 
     val articleListLiveData by lazy {
         MutableLiveData<List<Article>>()
     }
 
-    fun loadFeeds(): Disposable =
+    fun loadHeadlines(): Disposable =
         api.getHeadLines(
             apiKey = context.getString(R.string.api_key)
-        ).makeFlowableRxConnection(this, Constants.NEWS_FEEDS)
+        ).makeFlowableRxConnection(this, Constants.NEWS_FEEDS, testScheduler)
 
     override fun onSuccess(obj: Any?, tag: String) {
         when (tag) {

@@ -7,6 +7,7 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.components.ApplicationComponent
+import io.reactivex.schedulers.TestScheduler
 import okhttp3.*
 import okhttp3.logging.HttpLoggingInterceptor
 import okio.IOException
@@ -92,4 +93,7 @@ class APIModule {
             .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
             .build()
             .create(API::class.java)
+
+    @Provides
+    fun giveTestScheduler(): TestScheduler? = null
 }

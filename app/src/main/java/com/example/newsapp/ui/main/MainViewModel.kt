@@ -19,8 +19,8 @@ constructor(
 
     val articlesListLiveData: LiveData<List<Article>> = mainRepo.articleListLiveData
 
-    fun loadFeeds() =
+    fun loadHeadlines() =
         compositeDisposable.add(
-            mainRepo.loadFeeds()
+            mainRepo.loadHeadlines()
         )
 }

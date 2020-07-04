@@ -71,7 +71,7 @@ class MainActivity : BaseLifeCycleActivity<ActivityMainBinding, MainViewModel>()
         })
 
     private val refreshListener = SwipeRefreshLayout.OnRefreshListener {
-        viewModel.loadFeeds()
+        viewModel.loadHeadlines()
     }
 
     private fun setUpSwipeRefreshLayout() =
